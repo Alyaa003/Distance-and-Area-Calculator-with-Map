@@ -29,9 +29,6 @@ Perfect for **GIS professionals**, **students**, and **mapping enthusiasts**!
 - **[Leaflet Draw](https://github.com/Leaflet/Leaflet.draw)** for drawing and editing features.
 - **OpenStreetMap & Nominatim API** for geolocation and search functionality.
 
-##  UI Preview
-![Map Interface](https://via.placeholder.com/800x400.png?text=Map+Interface)
-
 ##  Installation & Usage
 ### 1️⃣ Clone the repository:
 ```bash
