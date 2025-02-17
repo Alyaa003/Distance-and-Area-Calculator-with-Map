@@ -1,6 +1,5 @@
 # 🌍 Distance and Area Calculator with Map
 
-![Project Preview](https://via.placeholder.com/1000x500.png?text=Project+Screenshot)
 
 ##  Overview
 This web-based interactive mapping application allows users to measure distances and calculate areas effortlessly. Built with **Leaflet.js** and **Leaflet Draw**, the tool supports:
