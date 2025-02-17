@@ -59,7 +59,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 We welcome contributions! Feel free to **fork the repository, report issues, or submit pull requests** to enhance this project.
 
 ##  Contact
-For inquiries, feedback, or suggestions, reach out at [ALYAAALAA301GMAIL.com].
+For inquiries, feedback, or suggestions, reach out at [alyaaalaa301GMAIL.com].
 
 ---
 
