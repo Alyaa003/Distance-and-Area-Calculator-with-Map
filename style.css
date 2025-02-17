@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(245, 246, 221);
+    padding: 20px;
+}
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    width: 90%;
+    max-width: 1400px; 
+}
+#locationSearch {
+    margin-bottom: 10px;
+    width: 80%; 
+}
+#map {
+    height: 550px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+button, select, input {
+    background-color:rgb(155, 220, 155);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: rgb(105, 211, 105);
+}
+input {
+    width: 60%;
+    text-align: center;
+    color: black;
+}

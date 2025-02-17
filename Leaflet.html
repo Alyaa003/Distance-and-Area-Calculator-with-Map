@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distance and Area Calculator with Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Distance and Area Calculator</h2>
+        <input type="text" id="locationSearch" placeholder="Search for a location..."> 
+        <button onclick="searchLocation()">Search</button>
+        <button onclick="locateUser()">Locate Me</button> <br>
+        <div id="map"></div>
+        <p id="distance">Click on the map to add points and calculate the distance</p>
+        <p id="area">Draw a polygon to calculate the area</p>
+        <select id="unit" onchange="updateDistance()">
+            <option value="km">Kilometers</option>
+            <option value="miles">Miles</option>
+            <option value="meters">Meters</option>
+        </select>
+        <button onclick="resetMap()">Reset</button>
+        <button onclick="exportGeoJSON()">Export as GeoJSON</button>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
